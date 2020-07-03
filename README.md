@@ -15,6 +15,8 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 
 ## [搭建Jitsi出现的问题](https://blog.csdn.net/qq_28880087/article/details/106952246)
 
+## [搭建Jitsi-videobridge](https://segmentfault.com/a/1190000023081361)
+
 ## [这么多流媒体服务器？你怎么技术选型](https://blog.csdn.net/qq_28880087/article/details/106604113)
 
 ## [webRTC通信方案SFU和MCU的区别？](https://blog.csdn.net/qq_28880087/article/details/106601309)
