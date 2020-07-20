@@ -3,8 +3,7 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 如果你也想借助开源的力量，来解决你在WebRTC当中的问题，欢迎加入我们的QQ群
 如果你有更多更好的资料和教程欢迎PR
 
-## SIP协议文档
-[3CX的SIP协议文档](./3CX/VoIP_Protocols.md)
+## [SIP协议文档](./3CX/VoIP_Protocols.md)
 
 ## [sip的简单理解](https://blog.csdn.net/qq_28880087/article/details/106579698)
 
