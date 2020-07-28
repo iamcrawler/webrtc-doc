@@ -53,6 +53,5 @@ org.jitsi.videobridge.NAT_HARVESTER_PUBLIC_ADDRESS在JVB2上已经过时
 ```
 /root/.jitsi-meet-cfg/web/interface_config.js
 ```
-
-
-
+jitsi-meet-config配置
+参考连接：https://gist.github.com/maps90/e06043734cda7bb67392ce2599ae25d4
