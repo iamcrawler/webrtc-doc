@@ -20,6 +20,8 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 
 ## [webRTC通信方案SFU和MCU的区别？](https://blog.csdn.net/qq_28880087/article/details/106601309)
 
+## [openvidu+kurento负载均衡](http://note.moosrtc.com/articles/2020/07/29/1596024754682.html)
+
 ### QQ群
 如果你也想学习更多的WebRTC知识，并且也想把你的贡献帮助到更多的人，欢迎加入
 QQ群，欢迎PR
