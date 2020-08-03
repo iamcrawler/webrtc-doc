@@ -73,5 +73,34 @@
 - octet count 总共发送字节数，整个在发送的过程中，发的每个包有多少个字节，累加出来的
 
 
+## Receiver Report block 
+发送者也是接受者的话，那我接受的数据报告也要发送出去
 
-- Receiver Report block 发送者也是接受者的话，那我接受的数据报告也要发送出去
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200803074512579.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4ODgwMDg3,size_16,color_FFFFFF,t_70)
+
+
+- SSRC_1 SSRC_2有其他的源发送的数据，做不同的统计
+- fraction lost 丢包率
+- cumulative number of packets lost C 丢包的数量
+- extended highest sequence number received EHSN 这个是sequence number 的高字节位
+- inter-arrival jitter J 延迟大小
+- last SR LSR 最后一个SR，上一次的SR
+- delay slnce last SR DLSR 自从上一次的SR的delay时间
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200803075049384.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI4ODgwMDg3,size_16,color_FFFFFF,t_70)
+
+- SSRC_n 如果有多个1234567，不是_1234567，每一个SSRC都是不同的
+- 从上一次的报告到现在一共发送100个包丢了5个包，丢包率为百分之五
+- 现在的seq num是1000，起始是100，实际总的包数是900个包，在900个包里一共丢了多少个包，这是一个累积的值
+
+webRTC会通过这些参数去检验网络质量，如果网络质量有问题，他就会减少发包量，做流控，防止发包过大，将整个网络阻塞
+
+## RTCP Receiver Report
+- 只包括Receiver Report block
+
+RTCP SR/RR 发送时机
+- 接收端只发送RR，如果我不发任何数据的时候，我收到多少数据，定时发RR的报文，整个网络的质量是什么样子的，进行上报
+
+- 既是发送端又是接收端时，在上一次报告之后有发送过数据时，则发SR
+
+- SR和RR都是为了上报数据，一个是说如果我已经发送过数据，这时候我连发送数据在由我接受数据的报告，我都发送出去。但是我只是接受了，但是没有发送任何数据的时候我只发送RR
