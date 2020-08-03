@@ -7,6 +7,7 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 
 ## [sip的简单理解](https://blog.csdn.net/qq_28880087/article/details/106579698)
 
+## [关于NAT,ICE,STUN,TURN](https://segmentfault.com/a/1190000023478253)
 
 ## [WebRTC Sample出现的问题](https://blog.csdn.net/qq_28880087/article/details/107022803)
 
@@ -20,7 +21,11 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 
 ## [webRTC通信方案SFU和MCU的区别？](https://blog.csdn.net/qq_28880087/article/details/106601309)
 
-## [openvidu+kurento负载均衡](http://note.moosrtc.com/articles/2020/07/29/1596024754682.html)
+## [ubuntu搭建kurento](https://segmentfault.com/a/1190000023478253)
+
+## [openvidu+kurento负载均衡](https://segmentfault.com/a/1190000023478329)
+
+
 
 ### QQ群
 如果你也想学习更多的WebRTC知识，并且也想把你的贡献帮助到更多的人，欢迎加入
