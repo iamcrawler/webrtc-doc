@@ -7,7 +7,7 @@ WebRTC-文档，借助开源的力量，收集更多的资料和教程
 
 ## [sip的简单理解](https://blog.csdn.net/qq_28880087/article/details/106579698)
 
-## [关于NAT,ICE,STUN,TURN](https://segmentfault.com/a/1190000023478253)
+## [关于NAT,ICE,STUN,TURN](https://segmentfault.com/a/1190000023478197)
 
 ## [WebRTC Sample出现的问题](https://blog.csdn.net/qq_28880087/article/details/107022803)
 
